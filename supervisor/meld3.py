@@ -31,7 +31,7 @@ try:
     from elementtree.ElementTree import ElementPath
 except ImportError:
     from xml.etree.ElementTree import TreeBuilder
-    from xml.etree.ElementTree import XMLTreeBuilder
+    from xml.etree.ElementTree import XMLParser as XMLTreeBuilder
     from xml.etree.ElementTree import Comment
     from xml.etree.ElementTree import ProcessingInstruction
     from xml.etree.ElementTree import QName
